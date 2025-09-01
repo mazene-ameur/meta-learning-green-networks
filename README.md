@@ -24,17 +24,7 @@ env\Scripts\activate
 
 ------------------------------------------------------------------------
 
-### 2. Install Dependencies
-
-Once the environment is activated, install all required packages:
-
-``` bash
-pip install -r requirements.txt
-```
-
-------------------------------------------------------------------------
-
-### 3. Create a Jupyter Kernel
+### 2. Create a Jupyter Kernel
 
 To use the virtual environment inside Jupyter Notebook:
 
@@ -45,6 +35,16 @@ python -m ipykernel install --user --name=env --display-name "Python (env)"
 
 Now, when you open Jupyter Notebook, you'll be able to select **Python
 (env)** as the kernel.
+
+------------------------------------------------------------------------
+
+### 3. Install Dependencies
+
+Once the environment is activated, install all required packages:
+
+``` bash
+pip install -r requirements.txt
+```
 
 ------------------------------------------------------------------------
 
